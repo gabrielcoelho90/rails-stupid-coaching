@@ -1,0 +1,10 @@
+<div class="w-25 p-3">
+  <h1>Stupid Coaching</h1>
+  <p>Ask your coach anything</p>
+</div>
+<div class="w-50 p-3">
+  <form class="input-group mb-3" action="/answer" data-turbo="false">
+  <input class="form-control" aria-describedby="basic-addon2" type="text" name="question" placeholder="Ask here"  value="<%= params[:answer] %>">
+  <input class="input-group-text btn btn-primary" type="submit" value="Ask" id="basic-addon2">
+  </form>
+</div>
